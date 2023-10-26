@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3,100%);
+   
+}
+
+#characters-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+#characters-list li {
+    flex: 0 0 calc(33.33% - 30px);
+    /* margin-right: 12px; */
+    margin-bottom: 12px;
+}
+
+#characters-list img {
+    width: 100%;
+   
+}
